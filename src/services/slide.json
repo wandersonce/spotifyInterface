@@ -1,11 +1,19 @@
 [
     {
         "title": "Your best Podcasts",
-        "items": [
+        "itens": [
             {
+                "photo": "https://i2.wp.com/sultanventures.com/wp-content/uploads/2018/04/Podcast-Thumbnail-Mic-Copy.jpg?w=2000&ssl=1",
                 "subtitle": {
                     "title": "Your daily Podcast",
-                    "subtitle": "The bests podcasts choosed for you"
+                    "description": "The bests podcasts choosed for you"
+                }
+            },
+            {
+                "photo": "https://i2.wp.com/sultanventures.com/wp-content/uploads/2018/04/Podcast-Thumbnail-Mic-Copy.jpg?w=2000&ssl=1",
+                "subtitle": {
+                    "title": "Your daily Podcast",
+                    "description": "The bests podcasts choosed for you"
                 }
             }
         ]

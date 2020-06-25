@@ -8,13 +8,13 @@ import {
     SubtitleDescription
 } from './styles';
 
-const Card = () => {
+const Card = ({ item }) => {
     return (
         <Container>
-            <Photo />
+            <Photo source={{ uri: item.photo }} />
             <ContainerSubtitle>
-                <SubtitleTitle>Your bests for today</SubtitleTitle>
-                <SubtitleDescription>Subdescription</SubtitleDescription>
+                <SubtitleTitle>{item.subtitle.title}</SubtitleTitle>
+                <SubtitleDescription>{item.subtitle.description}</SubtitleDescription>
             </ContainerSubtitle>
         </Container>
     )

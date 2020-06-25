@@ -8,14 +8,14 @@ import {
 
 import Card from '../Card';
 
-export default function SlideCard() {
+export default function SlideCard({ slide }) {
     return (
         <Container>
-            <Title>Test title</Title>
+            <Title>{slide.title}</Title>
             <SlideScroll>
-                <Card />
-                <Card />
-                <Card />
+                {slide.itens && slide.itens.map((item, index) => (
+                    <Card key={index} item={item} />
+                ))}
             </SlideScroll>
         </Container>
     )
