@@ -6,11 +6,18 @@ import {
     SlideScroll
 } from './styles';
 
+import Card from '../Card';
+
 export default function SlideCard() {
     return (
         <Container>
             <Title>Test title</Title>
-            <SlideScroll></SlideScroll>
+            <SlideScroll>
+                <Card />
+                <Card />
+                <Card />
+            </SlideScroll>
         </Container>
     )
 }
+
