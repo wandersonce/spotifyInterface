@@ -6,5 +6,7 @@ export const Container = styled.SafeAreaView`
 `;
 
 export const ContainerScrollView = styled.ScrollView.attrs({
-    showsVerticalIndicator: false
-})``;
+    showsVerticaScrolllIndicator: false
+})`
+
+`;

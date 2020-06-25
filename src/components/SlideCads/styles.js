@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.View`
-padding: 20px;
+padding: 5px 20px;
 `;
 
 export const Title = styled.Text`
@@ -11,7 +11,7 @@ export const Title = styled.Text`
 `;
 
 export const SlideScroll = styled.ScrollView.attrs({
-    showsHorizontalIndicator: false,
+    showsHorizontalScrollIndicator: false,
     horizontal: true,
 })`
 

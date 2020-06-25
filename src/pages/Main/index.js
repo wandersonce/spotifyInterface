@@ -12,6 +12,8 @@ const Main = () => {
         <Container>
             <ContainerScrollView>
                 <SlideCards />
+                <SlideCards />
+                <SlideCards />
             </ContainerScrollView>
         </Container>
     );

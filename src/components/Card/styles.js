@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.View`
     width: 160px;
     padding: 15px 0px;
+    margin-right: 8px;
 `;
 
 export const Photo = styled.Image`
-    flex:1;
     width: 150px;
     height: 150px;
     background-color: #888;
