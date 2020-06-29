@@ -7,7 +7,7 @@ import {
     ActionName
 } from './styles';
 
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/FontAwesome5';
 
 const TabBar = () => {
     const [iconConfigure] = useState({
