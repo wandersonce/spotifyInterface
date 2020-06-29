@@ -23,7 +23,7 @@ const Album = () => {
     return (
         <Container>
             <ContainerHeader>
-                <Photo source={{ uri: 'https://16uild1ojo8k3e9zl42x69dd-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/20234314_web1_170418-SNW-M-Nickelback-Colour-Jan_2017.jpg' }} />
+                <Photo source={{ uri: 'https://townsquare.media/site/366/files/2017/06/Nickelback-2.jpg?w=980&q=75' }} />
                 <ContainerNavBar>
                     <Icon name="arrow-left" {...iconConfigure} />
                     <GroupItemNavBar>
