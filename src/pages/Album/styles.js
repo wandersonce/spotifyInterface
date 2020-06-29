@@ -6,14 +6,14 @@ export const Container = styled.SafeAreaView`
 `;
 
 export const ContainerHeader = styled.View`
-
+height: 50%;
+justify-content: space-between;
 `;
 
 export const ContainerNavBar = styled.View`
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
-    background-color: red;
 `;
 
 export const GroupItemNavBar = styled.View`
@@ -30,8 +30,30 @@ padding: 6px 10px;
 border-radius: 6px;
 `;
 
-export const ContainerInfoBand = styled.View``;
+export const ContainerInfoBand = styled.View`
+justify-content: center;
+align-items: center;
+padding: 20px;
+`;
 
-export const BandName = styled.Text``;
+export const BandName = styled.Text`
+color: #fff;
+font-size: 50px;
+font-weight: bold;
+padding: 10px;
+`;
 
-export const BandFooter = styled.Text``;
+export const BandFooter = styled.Text`
+color: #e6e6e6;
+font-size: 12px;
+text-transform: uppercase;
+`;
+
+export const Photo = styled.Image`
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+height: 100%;
+`;

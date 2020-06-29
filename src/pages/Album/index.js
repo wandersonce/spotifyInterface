@@ -8,7 +8,8 @@ import {
     ButtonFollow,
     ContainerInfoBand,
     BandName,
-    BandFooter
+    BandFooter,
+    Photo
 } from './styles';
 
 import Icon from 'react-native-vector-icons/FontAwesome5';
@@ -22,6 +23,7 @@ const Album = () => {
     return (
         <Container>
             <ContainerHeader>
+                <Photo source={{ uri: 'https://16uild1ojo8k3e9zl42x69dd-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/20234314_web1_170418-SNW-M-Nickelback-Colour-Jan_2017.jpg' }} />
                 <ContainerNavBar>
                     <Icon name="arrow-left" {...iconConfigure} />
                     <GroupItemNavBar>
