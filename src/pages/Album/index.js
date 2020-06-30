@@ -12,8 +12,25 @@ import {
     Photo,
     Content,
     ButtonRadomOrder,
-    InfoCategory
+    ButtonRadomOrderText,
+    InfoCategory,
+    Music,
+    Number,
+    MusicName,
+    MusicListening
 } from './styles';
+
+import musics from './musics.json';
+
+const ContainerItens = () => {
+    return musics && musics.map((musics, index) => (
+        <Music key={index}>
+            <Number>{index + 1}</Number>
+            <MusicName>{musics.name}</MusicName>
+            <MusicListening>{musics.listening}</MusicListening>
+        </Music>
+    ))
+};
 
 import Icon from 'react-native-vector-icons/FontAwesome5';
 
@@ -40,8 +57,11 @@ const Album = () => {
                 </ContainerInfoBand>
             </ContainerHeader>
             <Content>
-                <ButtonRadomOrder>Radom Order</ButtonRadomOrder>
+                <ButtonRadomOrder>
+                    <ButtonRadomOrderText>Radom Order</ButtonRadomOrderText>
+                </ButtonRadomOrder>
                 <InfoCategory>Popularity</InfoCategory>
+                <ContainerItens />
             </Content>
         </Container>
     );

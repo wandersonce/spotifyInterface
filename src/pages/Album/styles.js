@@ -62,6 +62,45 @@ font-size: 12px;
 text-transform: uppercase;
 `;
 
-export const Content = styled.View``;
-export const ButtonRadomOrder = styled.Text``;
-export const InfoCategory = styled.Text``;
+export const Content = styled.View`
+flex:1;
+align-items: center;
+margin-top: 15px;
+`;
+
+export const ButtonRadomOrder = styled.TouchableOpacity`
+ background-color: #1DD15D;
+ padding: 10px 50px;
+ border-radius: 30px;
+`;
+
+export const ButtonRadomOrderText = styled.Text`
+color: #FFF;
+text-transform: uppercase;
+font-size: 17px;
+font-weight:bold;
+letter-spacing: 1px;
+`;
+
+export const InfoCategory = styled.Text`
+  color: #fff;
+  padding: 16px;
+  font-size: 16px;
+  font-weight:bold;
+`;
+
+export const ContainerItens = styled.View``;
+
+export const Music = styled.View``;
+
+export const Number = styled.Text`
+color: #fff;
+`;
+
+export const MusicName = styled.Text`
+color: #fff;
+`;
+
+export const MusicListening = styled.Text`
+color: #fff;
+`;
