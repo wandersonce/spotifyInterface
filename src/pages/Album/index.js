@@ -9,7 +9,10 @@ import {
     ContainerInfoBand,
     BandName,
     BandFooter,
-    Photo
+    Photo,
+    Content,
+    ButtonRadomOrder,
+    InfoCategory
 } from './styles';
 
 import Icon from 'react-native-vector-icons/FontAwesome5';
@@ -22,8 +25,8 @@ const Album = () => {
 
     return (
         <Container>
+            <Photo source={{ uri: 'https://cdn.ontourmedia.io/nickelback//non_secure/images/20200519/large1589916819/large.jpg' }} />
             <ContainerHeader>
-                <Photo source={{ uri: 'https://townsquare.media/site/366/files/2017/06/Nickelback-2.jpg?w=980&q=75' }} />
                 <ContainerNavBar>
                     <Icon name="arrow-left" {...iconConfigure} />
                     <GroupItemNavBar>
@@ -36,6 +39,10 @@ const Album = () => {
                     <BandFooter>8.500.752 followers</BandFooter>
                 </ContainerInfoBand>
             </ContainerHeader>
+            <Content>
+                <ButtonRadomOrder>Radom Order</ButtonRadomOrder>
+                <InfoCategory>Popularity</InfoCategory>
+            </Content>
         </Container>
     );
 }

@@ -6,16 +6,26 @@ export const Container = styled.SafeAreaView`
   background-color: #111;
 `;
 
-export const ContainerHeader = styled.View`
+export const ContainerHeader = styled(LinearGradient).attrs({
+  colors: ['#111', 'transparent', 'transparent', '#111']
+})`
 height: 50%;
 justify-content: space-between;
 `;
 
-export const ContainerNavBar = styled(LinearGradient).attrs({
-  colors: ['#000', 'red']
-})`
+export const Photo = styled.Image`
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  right: 0;
+  bottom: 50%;
+  `;
+
+export const ContainerNavBar = styled.View`
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
 `;
 
@@ -52,11 +62,6 @@ font-size: 12px;
 text-transform: uppercase;
 `;
 
-export const Photo = styled.Image`
-position: absolute;
-left: 0;
-top: 0;
-right: 0;
-bottom: 0;
-height: 100%;
-`;
+export const Content = styled.View``;
+export const ButtonRadomOrder = styled.Text``;
+export const InfoCategory = styled.Text``;
