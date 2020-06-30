@@ -1,8 +1,9 @@
+import LinearGradient from 'react-native-linear-gradient';
 import styled from 'styled-components';
 
 export const Container = styled.SafeAreaView`
   flex: 1;
-  background-color: #222;
+  background-color: #111;
 `;
 
 export const ContainerHeader = styled.View`
@@ -10,7 +11,9 @@ height: 50%;
 justify-content: space-between;
 `;
 
-export const ContainerNavBar = styled.View`
+export const ContainerNavBar = styled(LinearGradient).attrs({
+  colors: ['#000', 'red']
+})`
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
