@@ -89,7 +89,9 @@ export const InfoCategory = styled.Text`
   font-weight:bold;
 `;
 
-export const ContainerItens = styled.View`
+export const ContainerItens = styled.ScrollView.attrs({
+  showsHorizontalScrollIndicator: false,
+})`
   flex: 1;
   width: 100%;
 `;
@@ -120,4 +122,5 @@ font-size: 12px;
 export const MusicGroupAll = styled.View`
 flex-direction: row;
 `;
-export const MusicGroupItem = styled.View``;
+export const MusicGroupItem = styled.View`
+`;
