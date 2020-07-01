@@ -89,18 +89,35 @@ export const InfoCategory = styled.Text`
   font-weight:bold;
 `;
 
-export const ContainerItens = styled.View``;
+export const ContainerItens = styled.View`
+  flex: 1;
+  width: 100%;
+`;
 
-export const Music = styled.View``;
+export const Music = styled.View`
+flex-direction: row;
+height: 60px;
+align-items:center;
+justify-content: space-between;
+`;
 
 export const Number = styled.Text`
-color: #fff;
+padding: 20px;
+color: #e6e6e6;
 `;
 
 export const MusicName = styled.Text`
-color: #fff;
+color: #e6e6e6;
+font-size: 16px;
+padding: 3px 0px;
 `;
 
 export const MusicListening = styled.Text`
-color: #fff;
+color: #aaa;
+font-size: 12px;
 `;
+
+export const MusicGroupAll = styled.View`
+flex-direction: row;
+`;
+export const MusicGroupItem = styled.View``;

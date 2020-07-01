@@ -17,17 +17,25 @@ import {
     Music,
     Number,
     MusicName,
-    MusicListening
+    MusicListening,
+    ContainerItens,
+    MusicGroupItem,
+    MusicGroupAll
 } from './styles';
 
 import musics from './musics.json';
 
-const ContainerItens = () => {
+const Musics = () => {
     return musics && musics.map((musics, index) => (
-        <Music key={index}>
-            <Number>{index + 1}</Number>
-            <MusicName>{musics.name}</MusicName>
-            <MusicListening>{musics.listening}</MusicListening>
+        <Music key={index++}>
+            <MusicGroupAll>
+                <Number>{index++}</Number>
+                <MusicGroupItem>
+                    <MusicName>{musics.name}</MusicName>
+                    <MusicListening>{musics.listening}</MusicListening>
+                </MusicGroupItem>
+            </MusicGroupAll>
+            <Icon name="ellipsis-v" color="#aaa" size={16} style={{ padding: 20 }} />
         </Music>
     ))
 };
@@ -61,10 +69,14 @@ const Album = () => {
                     <ButtonRadomOrderText>Radom Order</ButtonRadomOrderText>
                 </ButtonRadomOrder>
                 <InfoCategory>Popularity</InfoCategory>
-                <ContainerItens />
+                <ContainerItens>
+                    <Musics />
+                </ContainerItens>
             </Content>
         </Container>
     );
 }
 
 export default Album;
+
+
