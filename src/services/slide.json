@@ -1,6 +1,6 @@
 [
     {
-        "title": "Seus podcasts mais escutados",
+        "title": "The most listened to by you",
         "itens": [
             {
                 "photo": "https://i2.wp.com/sultanventures.com/wp-content/uploads/2018/04/Podcast-Thumbnail-Mic-Copy.jpg?w=2000&ssl=1",
@@ -26,7 +26,7 @@
         ]
     },
     {
-        "title": "Top mais tocadas",
+        "title": "Top most played",
         "itens": [
             {
                 "photo": "https://d2tml28x3t0b85.cloudfront.net/tracks/artwork/bed20560892649e8bf29bf6bc0dbb5f5/5d7ebb4baad34d72b5bc84454945b2bd-bad-guy-remix.jpg",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "title": "As clássicas",
+        "title": "Classics",
         "itens": [
             {
                 "photo": "https://upload.wikimedia.org/wikipedia/pt/thumb/6/62/Nada_como_um_dia_ap%C3%B3s_o_outro_dia.jpg/220px-Nada_como_um_dia_ap%C3%B3s_o_outro_dia.jpg",
@@ -57,7 +57,7 @@
         ]
     },
     {
-        "title": "Novos episódios de podcast",
+        "title": "New podcasts",
         "itens": [
             {
                 "photo": "https://f.i.uol.com.br/fotografia/2019/11/09/15733289465dc718324b5b1_1573328946_1x1_lg.jpg",

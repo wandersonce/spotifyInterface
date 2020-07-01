@@ -5,11 +5,14 @@ import Main from './pages/Main';
 import Album from './pages/Album';
 import TabBar from './components/TabBar';
 
+
+//!! TO SEE THE ALBUM SCREEM JUST CHANGE THE MAIN COMPONENT FOR THE ALBUM.
+
 const App = () => {
   return (
     <React.Fragment>
       <StatusBar barStyle="light-content" />
-      <Album />
+      <Main />
       <TabBar />
     </React.Fragment>
   )
