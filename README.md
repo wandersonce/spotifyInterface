@@ -6,13 +6,10 @@ for learn more about some features and layout on react-native.</b>
 
 ### Home Interface -
 <img src="https://user-images.githubusercontent.com/51806895/86491276-2fb13580-bd1f-11ea-84d1-d1bbe4821062.PNG"  width="30%"/>
+<img src="https://user-images.githubusercontent.com/51806895/86491356-7b63df00-bd1f-11ea-8fad-ff816998de42.gif"  width="30%"/>
 
 ### Album Interface -
 <img src="https://user-images.githubusercontent.com/51806895/86491300-43f53280-bd1f-11ea-9af8-a02e858d9607.PNG"  width="30%"/>
-
-
-### LOGIN - Use your github username to login.
-### Please don't forget to run Backend using the command `yarn dev` or `npm dev`.
 
 
 ## Available Scripts
